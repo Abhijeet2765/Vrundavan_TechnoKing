@@ -19,6 +19,7 @@ nav .logo{
     font-weight: 500;
 }
 nav ul{
+    margin-top: 10px;
     display: flex;
     list-style: none;
 }
@@ -49,6 +50,53 @@ nav .menu-btn {
 #click{
     display: none;
 }
+
+
+.parent-sec{
+    height:fit-content;
+    border-radius: 10px;
+    border-color: #111;
+    border-style: solid;
+    margin-top: 10px;
+    z-index: 1000;
+}
+.detail{
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border-color: #111;
+    border-style:solid;
+    border-width: 2px;
+    box-shadow: 10px 10px 	#D3D3D3; 
+}
+#prof-img{
+    height: 400px;
+    width:auto;
+    border-radius: 20%;
+}
+#disc{
+    width: 700px;
+    display: inline-block;
+    border-color: #111;
+    border-style: solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#pic{
+    width: 350px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
 @media (max-width:940px){
     nav .menu-btn {
         display:block;
@@ -62,7 +110,7 @@ nav .menu-btn {
     }
     nav ul{
         position: fixed;
-        top:80px;
+        top:70px;
         left: -100%;
         background: #111;
         height: 100vh;
@@ -85,5 +133,11 @@ nav .menu-btn {
     nav ul li a.active{
         color: cyan;
         background: none;
+    }
+    #disc{
+        width: 350px;
+    }
+    #prof-img{
+        height: 350px;
     }
 }
