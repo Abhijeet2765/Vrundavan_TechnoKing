@@ -60,6 +60,14 @@ nav .menu-btn {
     margin-top: 10px;
     z-index: 1000;
 }
+.child1-sec{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    border-color: #111;
+    border-style:solid;
+}
 .detail{
     height: 500px;
     text-align: center;
@@ -138,6 +146,12 @@ nav .menu-btn {
         width: 350px;
     }
     #prof-img{
-        height: 350px;
+        height: 300px;
+    }
+    .parent-sec{
+        height: fit-content;
+    }
+    .child1-sec{
+        height: fit-content;
     }
 }
